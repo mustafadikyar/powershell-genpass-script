@@ -7,7 +7,7 @@ param (
 
 function Show-Help {
     Write-Host "Usage:"
-    Write-Host "./generate_password.ps1 -l <password length> -o <character types>"
+    Write-Host "./genpass.ps1 -l <password length> -o <character types>"
     Write-Host "Options:"
     Write-Host "  l : Lowercase letters"
     Write-Host "  u : Uppercase letters"
