@@ -14,7 +14,7 @@ function Show-Help {
     Write-Host "  d : Digits"
     Write-Host "  s : Special characters"
     Write-Host "  a : All character types"
-    Write-Host "Example: ./generate_password.ps1 -l 12 -o 'lds'"
+    Write-Host "Example: ./genpass.ps1 -l 12 -o 'lds'"
 }
 
 function Generate-StrongPassword {
