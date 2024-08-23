@@ -66,4 +66,3 @@ if ($l -lt 1) {
 $strongPassword = Generate-StrongPassword -length $l -options $o
 
 Write-Host "Generated strong password: $strongPassword"
-s
